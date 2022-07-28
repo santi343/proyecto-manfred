@@ -1,0 +1,805 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1"
+    />
+    <title>ISIS-BOL</title>
+
+
+
+<!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.css"
+  rel="stylesheet"
+/>
+
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.3.0/mdb.min.js"
+></script>
+
+
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/conalep/favicon.ico"
+      type="image/ico"
+    />
+    <link
+      rel="stylesheet"
+      href="css/style.css"
+      media="screen, projection"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/adaptive.css"
+      media="screen, projection"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style_galery.css" />
+
+    <link rel="stylesheet" type="text/css" href="galery/engine/style.css" />
+    <script type="text/javascript" src="galery/engine/jquery.js"></script>
+
+    <meta
+      name="description"
+      content="Instituto tecnico de sistemas de informacion y software bolivia, durante más de treinta años, el plantel del instituto ha vivido una historia llena de logros y de éxitos en las área académicas, artísticas, culturales y deportivas, producto de la fuerza y el esfuerzo del personal directivo, administrativo y docente, cuyo quehacer institucional está sustentado en la misión, visión, valores y el modelo educativo del Conalep, que tiene como propósito brindar a sus estudiantes una sólida formación profesional. isis-bol es una institución educativa con proyección hacia el futuro, orientada a la formación de capital humano alineado a la realidad laboral y social, logrando con ello, el reconocimiento del sector productivo, público y social. El Conalep Chiapa de corzo abre sus puertas a los jóvenes que han concluido la secundaria y que aspiran a una educación de calidad que les permita su rápida inserción en el ámbito laboral, así como a todas las personas interesadas en la capacitación y evaluación con fines de certificación de competencia laboral, que están en la búsqueda constante en la actualización y/o especialización de su saber-hacer, para hacer frente a los retos que suscita el mundo actual."
+    />
+    <meta
+      name="keywords"
+      content="Isis-bol, Instituto, Educación, Innovación, Enseñanza, Aprendizaje"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg text-bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ISIS-BOL</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active link-light"
+                  aria-current="page"
+                  href="#"
+                  >OFERTA EDUCATIVA</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active link-light"
+                  aria-current="page"
+                  href="#"
+                  >ASPIRANTES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active link-light"
+                  aria-current="page"
+                  href="#"
+                  >ALUMNOS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active link-light"
+                  aria-current="page"
+                  href="#"
+                  >DOCENTES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active link-light"
+                  aria-current="page"
+                  href="#"
+                  >EGRESADOS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active link-light"
+                  aria-current="page"
+                  href="#"
+                  >SERVICIOS</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <button class="btn btn-success bg-primary" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  INFORMACIÓN INSTITUCINAL
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">HISTORIA</a></li>
+                  <li><a class="dropdown-item" href="#">MISIÓN</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">VISIÓN</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  ACTIVIDADDES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">ERA</a></li>
+                  <li><a class="dropdown-item" href="#">EVENTOS</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">ACTIVIDADES CIVICAS</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">ACTIVIDADES DEPORTIVAS</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">ACTIVIDADES CULTURALES</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  BOLETINES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">COSTOS</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">PROCESO DE ADMISIÓN</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">CALENDARIO ESCOLAR</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  SISTEMAS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">SAE ALUMNOS</a></li>
+                  <li><a class="dropdown-item" href="#">SAE DOCENTES</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">RECIBO DE NOMINA</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <body>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="images/Asana/FB_IMG_1658778991810.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>
+                Some representative placeholder content for the first slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Asana/FB_IMG_1658778991810.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>
+                Some representative placeholder content for the second slide.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/Asana/FB_IMG_1658778900975.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>
+                Some representative placeholder content for the third slide.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </body>
+
+      <script type="text/javascript" src="galery/engine/wowslider.js"></script>
+      <script type="text/javascript" src="galery/engine/script.js"></script>
+    </div>
+    <div class="galeria-mobil">
+      <a href="noticias"
+        ><img class="image" src="images/conalep/galeria_mobil.jpg"
+      /></a>
+      <p class="data-galeria-mobil">
+        <a href="noticias" class="more">Leer Más&hellip;</a>
+      </p>
+    </div>
+    <div class="section-news">
+      <div class="margin">
+        <div class="items-news">
+          <ul class="listing">
+            <li class="item firstp">
+              <!--<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fconalepchiapacorzo&amp;width=315&amp;height=290&amp;colorscheme=dark&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:290px;" allowTransparency="true"></iframe>-->
+            </li>
+            <li class="item">
+              <iframe
+                class="media"
+                width="100%"
+                height="177"
+                src="//www.youtube.com/embed/vNymQhrQMDM?rel=0&autoplay=0&controls=0&showinfo=0"
+                feature="player_embedded"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+              <!--<iframe class="media" width="100%" height="177" src="videos/Inicio de Curso Conalep Chiapa de Corzo.mp4" frameborder="0"></iframe>-->
+              <h3>
+                <a href="bienvenida">Bienvenida Conalep Chiapa de Corzo</a>
+              </h3>
+              <p>
+                Durante más de treinta años, el plantel Conalep Chiapa de corzo
+                ha vivido una historia llena de logros y de éxitos
+                <a href="bienvenida" class="more">Leer Más&hellip;</a>
+              </p>
+              <p class="data">12 DE FEBRERO DEL 2014</p>
+            </li>
+            <li class="item"></li>
+          </ul>
+          <ul class="listing">
+            <li class="item firstp">
+              <a href="5_concurso_de_programacion_basica"
+                ><img class="image" src="galery/data/images/3.jpg"
+              /></a>
+              <h3>
+                <a href="5_concurso_de_programacion_basica"
+                  >5° Concurso de Programación Básica</a
+                >
+              </h3>
+              <p>
+                5° Concurso de Programación Básica en C, El cual se llevara a
+                cabo en los laboratorios del área en informática
+                <a href="5_concurso_de_programacion_basica" class="more"
+                  >Leer Más&hellip;</a
+                >
+              </p>
+              <p class="data">30 DE MAYO DEL 2014</p>
+            </li>
+            <li class="item">
+              <a href="10_concurso_de_diseno_web"
+                ><img
+                  class="image"
+                  src="galery/data/images/IMG-20220707-WA0008.jpg"
+              /></a>
+              <h3>
+                <a href="10_concurso_de_diseno_web"
+                  >10° Concurso de Diseño de Páginas Web</a
+                >
+              </h3>
+              <p>
+                10° Concurso de Diseño de Páginas Web, El cual se llevara a cabo
+                en los laboratorios del área en informática
+                <a href="10_concurso_de_diseno_web" class="more"
+                  >Leer Más&hellip;</a
+                >
+              </p>
+              <p class="data">5 DE JUNIO DEL 2014</p>
+            </li>
+            <li class="item">
+              <a href="4_festival_del_rio_grande"
+                ><img
+                  class="image"
+                  src="galery/data/images/IMG-20220707-WA0009.jpg"
+              /></a>
+              <h3>
+                <a href="4_festival_del_rio_grande"
+                  >4° Gran Festival del Rio Grande</a
+                >
+              </h3>
+              <p>
+                En conmemoración al Día Mundial del Medio Ambiente, llevado a
+                cabo en las majestuosas aguas del Rio Grijalva
+                <a href="4_festival_del_rio_grande" class="more"
+                  >Leer Más&hellip;</a
+                >
+              </p>
+              <p class="data">DEL 2 AL 5 DE JUNIO DEL 2014</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="margin">
+        <strong class="logo"><a href="/">ISIS-BOL</a></strong>
+        <address>
+          AV.MCAL SANTA CRUZ N°96
+          <br />
+          Caranavi, Bolivia
+          <br />
+          TEL. 78793164
+          <br />
+          EMAIL: isisbolcaranavi@hotmail.com
+        </address>
+      </div>
+    </div>
+    <div class="sub-footer">
+      <div class="margin">
+        <ul>
+          <li><a href="terminos_y_condiciones">TÉRMINOS Y CONDICIONES</a></li>
+          <li>
+            <a href="declaracion_de_privacidad">DECLARACIÓN DE PRIVACIDAD</a>
+          </li>
+          <li><a href="desarrollador">DESARROLLADOR</a></li>
+          <li><a href="login/iniciar_sesion">ADMINISTRADOR</a></li>
+          <li><a href="mapa_del_sitio">MAPA DEL SITIO</a></li>
+          <li><a href="contacto">CONTACTO</a></li>
+        </ul>
+        <br />
+        isis-bol la mejor
+      </div>
+    </div>
+
+
+
+
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+  >
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Company name
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Products
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Vue</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Pricing</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Orders</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+
+
+
+
+
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+  </body>
+</html>
