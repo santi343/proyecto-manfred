@@ -41,16 +41,6 @@ footer {
   justify-content: space-evenly;
 }
 
-@media only screen and (max-width: 767px) {
-
-  footer{
-    flex-direction:column;
-    flex-direction: column-reverse;
-  }
-  .footer2{
-    padding:3%;
-  }
-}
 /*-------------------------------------------
     Estructura
 -------------------------------------------*/
@@ -734,4 +724,15 @@ h4 a:hover {
   font-weight: bold;
   border: none;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+
+  footer{
+    flex-direction:column;
+    flex-direction: column-reverse;
+  }
+  .footer2{
+    padding:3%;
+  }
 }
