@@ -14,7 +14,7 @@
 .backgroundNav {
   background-color: red;
   background-color: #1ba844;
-  background-color: #1ba844;
+  background-color: #1ca04560;
   /* background: -moz-linear-gradient( */
   /*   left, */
   /*   red, */
@@ -67,8 +67,8 @@
   /* ); */
 
   /* background: linear-gradient(top, #245A08); */
-  background: linear-gradient(top, #245a08);
-  background: linear-gradient(to bottom, green, #2167d4);
+  /* background: linear-gradient(top, #245a08); */
+  /* background: linear-gradient(to bottom, green, #2167d4); */
 }
 .btn-search {
   background: #baccdf;
